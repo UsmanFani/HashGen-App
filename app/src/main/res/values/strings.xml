@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HashGen App</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hash_generator">Hash Generator</string>
+    <string name="generate">Generate</string>
+    <string name="enter_text">Enter Text...</string>
+
+    <string-array name="hashArray">
+        <item>MD5</item>
+        <item>SHA256</item>
+        <item>SHA512</item>
+    </string-array>
+</resources>
