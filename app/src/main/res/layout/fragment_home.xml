@@ -20,7 +20,6 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <Spinner
-            tools:listitem="@"
             android:spinnerMode="dropdown"
             android:id="@+id/appCompatSpinner"
             android:backgroundTint="@color/purple_200"
@@ -32,6 +31,7 @@
             app:layout_constraintTop_toBottomOf="@+id/textView" />
 
         <EditText
+            android:padding="5dp"
             android:id="@+id/editText"
             android:layout_width="0dp"
             android:layout_height="170dp"
