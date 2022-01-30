@@ -9,7 +9,7 @@ import com.example.hashgenapp.R
 import com.example.hashgenapp.databinding.FragmentResultBinding
 
 
-class ResultFragment : Fragment(R.layout.fragment_result) {
+class ResultFragment : Fragment() {
     private var _binding:FragmentResultBinding?=null
     private val binding get() = _binding!!
     override fun onCreate(savedInstanceState: Bundle?) {

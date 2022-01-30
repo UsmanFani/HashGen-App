@@ -43,7 +43,8 @@
             android:maxLines="6"
             app:layout_constraintEnd_toEndOf="@+id/appCompatSpinner"
             app:layout_constraintStart_toStartOf="@+id/appCompatSpinner"
-            app:layout_constraintTop_toBottomOf="@+id/appCompatSpinner" />
+            app:layout_constraintTop_toBottomOf="@+id/appCompatSpinner"
+             />
 
         <Button
             android:textSize="20sp"
@@ -57,4 +58,26 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editText"
             app:layout_constraintVertical_bias="0.883" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@color/teal_200"
+            android:alpha="0"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="184dp"
+            android:layout_height="171dp"
+            android:src="@drawable/ic_baseline_check_circle_outline_24"
+            app:layout_constraintBottom_toBottomOf="@+id/generateBtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:alpha="0"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
