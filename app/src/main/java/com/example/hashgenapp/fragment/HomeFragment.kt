@@ -2,10 +2,9 @@ package com.example.hashgenapp.fragment
 
 import android.os.Bundle
 import android.view.*
-import androidx.fragment.app.Fragment
 import android.widget.*
+import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
-import androidx.navigation.NavController
 import androidx.navigation.fragment.findNavController
 import com.example.hashgenapp.R
 import com.example.hashgenapp.databinding.FragmentHomeBinding
@@ -71,8 +70,8 @@ class HomeFragment : Fragment(), AdapterView.OnItemSelectedListener {
         inflater.inflate(R.menu.item_menu, menu)
     }
 
-    override fun onDestroy() {
-        super.onDestroy()
+    override fun onDestroyView() {
+        super.onDestroyView()
         _binding = null
     }
 }
