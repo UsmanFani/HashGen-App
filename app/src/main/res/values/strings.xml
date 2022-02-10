@@ -5,10 +5,16 @@
     <string name="hash_generator">Hash Generator</string>
     <string name="generate">Generate</string>
     <string name="enter_text">Enter Text...</string>
+    <string name="clear">Clear</string>
+    <string name="copy">Copy</string>
+    <string name="copied">Copied!!</string>
 
     <string-array name="hashArray">
         <item>MD5</item>
+        <item>SHA1</item>
+        <item>SHA224</item>
         <item>SHA256</item>
+        <item>SHA384</item>
         <item>SHA512</item>
     </string-array>
 </resources>
