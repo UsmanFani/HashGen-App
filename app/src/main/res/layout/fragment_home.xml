@@ -19,6 +19,7 @@
         app:layout_constraintTop_toTopOf="parent" />
     <Button
         style="@style/Widget.Material3.Button.ElevatedButton"
+        app:rippleColor="?attr/colorPrimary"
         android:id="@+id/generateBtn"
         android:layout_height="60dp"
         android:layout_width="wrap_content"

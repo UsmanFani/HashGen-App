@@ -17,7 +17,7 @@ import kotlinx.coroutines.launch
 
 
 class ResultFragment : Fragment() {
-    private val hashArgus: ResultFragmentArgs by navArgs()
+    private val hashArgus: ResultFragmentArgs by navArgs() //Delegate navArgs() is used to get args from navigation component
     private var _binding: FragmentResultBinding? = null
     private val binding get() = _binding!!
     override fun onCreate(savedInstanceState: Bundle?) {
